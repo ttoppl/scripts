@@ -143,7 +143,6 @@ function DrawingLib.new(drawingType)
 		textLabel.AnchorPoint = (Vector2.one * .5)
 		textLabel.BorderSizePixel = 0
 		textLabel.BackgroundTransparency = 1
-    textLabel.RichText = true
 
 		textLabel.Visible = textObj.Visible
 		textLabel.TextColor3 = textObj.Color
